@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #4b1248 0%, #703050 30%, #cb786d 70%, #e8a082 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    height: 900px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Informações de contato no topo */
+.header-info {
+    font-size: 0.9rem;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+/* Layout Superior */
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.jsaux-img {
+    width: 280px;
+    filter: drop-shadow(0 20px 30px rgba(0,0,0,0.5));
+    transform: rotate(-10deg);
+}
+
+.call-to-action h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.icon-sun {
+    background: rgba(255, 255, 255, 0.2);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.icon-sun img {
+    width: 80px;
+    filter: invert(1);
+}
+
+.tagline {
+    text-align: right;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+/* Layout Inferior */
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.product-title h2 {
+    font-size: 3.5rem;
+    line-height: 1;
+    max-width: 400px;
+}
+
+.brand {
+    font-size: 1.5rem;
+    display: block;
+    margin-left: 200px;
+}
+
+.price {
+    font-size: 2rem;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.price strong {
+    font-size: 3rem;
+}
+
+.vxcase-img {
+    width: 320px;
+    filter: drop-shadow(0 20px 40px rgba(0,0,0,0.6));
+}
+
+/* Rodapé */
+.footer-bar {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    font-size: 1rem;
+    opacity: 0.9;
+}
